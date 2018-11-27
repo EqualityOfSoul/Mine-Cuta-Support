@@ -1,1 +1,1 @@
-# Mine-Cuta-Support
+# Mine-Cuta
