@@ -4,11 +4,11 @@ module.exports = client => {
   console.log(`${client.user.username} Ready to playing with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   function randStatus() {
     let status = [
-      `Watching Server`, `Mine Cuta Support`,
-      `Watching Desk`,
+      `Server`, `Mine Cuta Support`,
+      `Desk`,
       `Total Server : 800 Server`,
       `Using Windows 10 Edition`,
-      `Watching Desk`,
+      `Desk`,
       `Created by : Mine Cuta Youtube#9297`,
       `Pukul ${moment().tz("Asia/Makassar").format('LT')} WITA`,
       `Pukul ${moment().tz("Asia/Jakarta").format('LT')} WIB`,
