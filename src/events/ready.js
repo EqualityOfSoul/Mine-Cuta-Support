@@ -14,7 +14,7 @@ module.exports = client => {
       `Pukul ${moment().tz("Asia/Jakarta").format('LT')} WIB`,
       `Pukul ${moment().tz("Asia/Jayapura").format('LT')} WIT`];
     let rstatus = Math.floor(Math.random() * status.length);
-    client.user.setActivity(status[rstatus], { type: 'Online' });
+    client.user.setActivity(status[rstatus], { type: 'PLAYING' });
   };
 setInterval(randStatus, 9000);
   console.log(`${client.user.username} sukses online!`);
