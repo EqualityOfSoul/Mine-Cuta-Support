@@ -21,7 +21,7 @@ exports.run = async (client, message, args) => {
     .setThumbnail(bicon)
     .addField("**Bot Info**", `Name: \n**${client.user.username}**`)
     .addField("📊 | Statistic", `•${client.guilds.size} Guilds\n•${client.channels.size} Channels\n•${client.users.size} Users`)
-    .addField("💬 | Prefix", `\`m$\` Is my prefix`)
+    .addField("💬 | Prefix", `\`$,\` Is my prefix`)
     .addField("🖥️ | Platform", `Windows 10`)
     .addField(":floppy_disk: | MEM Usage", `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} / ${(os.totalmem() / 1024 / 1024).toFixed(2)} MB`, true)
     .addField(":thermometer: | CPU Usage", `\`${percent.toFixed(2)}%\` / \`Unlimited!\``)
