@@ -7,14 +7,14 @@ module.exports = client => {
       `Say $,help || $,invite`, `Mention Me @(Mine Cuta Support)`,
       `Discord.io//MineCuta`,
       `Total Server : 800 Server`,
-      `Using Windows 10 Edition`,
+      `In Development `,
       `$,invite untuk invite Mine Cuta ke servermu`,
       `Created by : Mine Cuta Youtube#9297`,
       `Pukul ${moment().tz("Asia/Makassar").format('LT')} WITA`,
       `Pukul ${moment().tz("Asia/Jakarta").format('LT')} WIB`,
       `Pukul ${moment().tz("Asia/Jayapura").format('LT')} WIT`];
     let rstatus = Math.floor(Math.random() * status.length);
-    client.user.setActivity(status[rstatus], { type: 'PLAYING' });
+    client.user.setActivity(status[rstatus], { type: 'WATCHING' });
   };
 setInterval(randStatus, 9000);
   console.log(`${client.user.username} sukses online!`);
