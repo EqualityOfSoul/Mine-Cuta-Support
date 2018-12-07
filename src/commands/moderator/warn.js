@@ -24,7 +24,7 @@ module.exports.run = async (client, message, args) => {
   .addField("Number of Warnings", warns)
   .addField("Reason", reason);
 
-  let warnchannel = message.guild.channels.find(`name`, "【❗】server_log");
+  let warnchannel = message.guild.channels.find(`name`, "⚠warning⚠");
   if(!warnchannel) return message.reply("Tidak dapat menemukan channel");
 
   message.channel.send(`${wUser} Berhasil diberi peringatan oleh ${message.author}, Alasan: [${reason}], Warnings Number: [${warns} Warnings]`);
