@@ -7,21 +7,21 @@ async function stop (client, msg, args){
 		if(!msg.member.voiceChannel) return msg.channel.send('Kamu harus masuk voice channel untuk menghentikan antrian');
 		queue.songs = [];
 		queue.connection.dispatcher.end();
-		return msg.channel.send('🛑 Menghentikan antrean saat ini');
+		return msg.channel.send('Leave Voice Channel');
 	} catch (err) {
 		return msg.channel.send(err.stack, { code: 'ini' });
 	}
 }
 
 this.conf = {
-	aliases: ['s, dc, leave'],
+	aliases: ['dc, leave'],
 	cooldown: 1
 }
 
 this.help = {
-	name: 'stop',
-	description: 'Menghentikan antrean',
-	usage: 'stop'
+	name: 'leave',
+	description: 'Leave Voice Channel',
+	usage: 'leave'
 }
 
 this.run = stop;
