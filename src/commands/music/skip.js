@@ -13,7 +13,7 @@ async function skip (client, msg, args){
 }
 
 this.conf = {
-	aliases: ['s, S'],
+	aliases: ['s'],
 	cooldown: 1
 }
 
