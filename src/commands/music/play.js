@@ -19,7 +19,7 @@ async function playCommand(client, msg, args){
 				const vid = await youtube.getVideoByID(video.id);
 				await handleVideo(vid, msg, vc, true);
 			}
-			return msg.channel.send(`✅ Playlist: **${playlist.title}** berhasil ditambahkan ke antrian!`);
+			return msg.channel.send(`✅ Playlist: **${playlist.title}** berhasil ditambahkan ke queue!`);
 		}
 		if(/https?:\/\//gi.test(args[0])){
 			const video = await youtube.getVideo(args[0]);
@@ -45,7 +45,7 @@ async function handleVideo (video, msg, voiceChannel, hide = false){
 	}
 	if(!queue){
 		try{
-			const thisMess = await msg.channel.send('🏴 Masuk ke voice channel....');
+			const thisMess = await msg.channel.send('🏴 join the voice channel voice channel....');
 			const connection = await voiceChannel.join();
 			const Queue = {
 				channel: msg.channel,
@@ -65,7 +65,7 @@ async function handleVideo (video, msg, voiceChannel, hide = false){
 		}
 	}
 	queue.songs.push(song);
-	if(!hide) return msg.channel.send(`✅ Ditambahkan ke antrian ${song.title}`);
+	if(!hide) return msg.channel.send(`✅ Ditambahkan ke queue ${song.title}`);
 }
 
 function play(msg, song){
