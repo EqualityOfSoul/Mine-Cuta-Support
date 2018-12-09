@@ -4,7 +4,7 @@ module.exports = client => {
   console.log(`${client.user.username} Ready to playing with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   function randStatus() {
     let status = [
-      `Say $,help || $,invite`, `Mention Me @(Mine Cuta Support)`,
+      `Say $,help || $,invite || $,support`, `Mention Me @(Mine Cuta Support)`,
       `Discord.io//MineCuta`,
       `Total Server : 800 Server`,
       `In Development `,
