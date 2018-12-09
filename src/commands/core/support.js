@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
 let embed = new SharifEmbed()
       .setColor("RANDOM")
       .setAuthor("Support Bot Mine Cuta Support")
-      .setDescription("**[Klik Disini]https://discord.gg/cRB4xN4)**")
+      .setDescription("**[Klik Disini](https://discord.gg/cRB4xN4)**")
 
 
 
