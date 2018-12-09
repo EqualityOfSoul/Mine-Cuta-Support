@@ -6,10 +6,13 @@ let embed = new SharifEmbed()
       .setColor("RANDOM")
       .setAuthor("Ingin Menginvite Mine Cuta Support Ke Server Mu?")
       .setDescription("**[Klik Disini](https://discordapp.com/api/oauth2/authorize?client_id=513174081051557899&permissions=8&scope=bot)**")
+      .setAuthor("Support Bot")
+      .setDescription("**[Support Klick Disini](https://discord.gg/cRB4xN4)**")
+      .setFooter(`Requested By : ${message.author.username}`);             
 
 
 
-       .setFooter(`Requested By : ${message.author.username}`);
+  
       
      message.channel.send(embed);
      
