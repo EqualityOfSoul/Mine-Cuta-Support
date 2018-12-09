@@ -9,7 +9,8 @@ module.exports = client => {
       `Total Server : 800 Server`,
       `In Development `,
       `$,invite untuk invite Mine Cuta ke servermu`,
-      `Created by : Mine Cuta Youtube#9297`,
+      `$,support untuk Support Bot`,
+      `Created by : Mine Cuta Youtube#9297`,	
       `Pukul ${moment().tz("Asia/Makassar").format('LT')} WITA`,
       `Pukul ${moment().tz("Asia/Jakarta").format('LT')} WIB`,
       `Pukul ${moment().tz("Asia/Jayapura").format('LT')} WIT`];
