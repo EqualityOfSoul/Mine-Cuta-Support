@@ -22,7 +22,7 @@ function trimArray(arr, maxLen = 10) {
 }
 
 this.conf = {
-	aliases: [],
+	aliases: ['q'],
 	cooldown: 1
 }
 
