@@ -100,5 +100,5 @@ const dispatcher = serverQueue.connection.playStream(yt(song.url))
 exports.help = {
   name: "resume",
   description: "resume the paused music",
-  usage: "ms!resume"
+  usage: "$,resume"
 }
