@@ -28,7 +28,7 @@
     "enmap": "^4.0.11",
     "enmap-sqlite": "^2.0.5",
     "erlpack": "github:discordapp/erlpack",
-    "figlet": "1.2.1",
+    "figlet": "1.3.0",
     "got": "^9.2.2",
     "math-expression-evaluator": "^1.2.17",
     "memejs": "^1.0.7",
